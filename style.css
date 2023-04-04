@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: calibri,sans-serif;
+}
+.btn{
+    text-decoration: none;  
+    background-color:teal;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(175, 166, 166);
+    
+}
+.btn:hover{
+  background-color: rgb(11, 82, 82);  
+  
+}
+.landing-page{
+    background: white url(../images/vacation.jpg.jpg)no-repeat scroll center  ;
+    height: 100vh;
+    background-size: cover;
+    color: teal;
+}
+.wrapper .flex-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:800px;
+}
+
+.wrapper{
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+.landing-page .vacation-heading{
+    font-size: 80px;
+    color:#7ebebe;
+}
+.landing-page .vacation-heading:hover{
+    font-size: 90px;
+}
+
+.vacation-header{
+    background: radial-gradient(teal, rgb(64, 137, 137));
+    color: white;
+    padding: 30px;
+
+}
+.heading{
+    font-size: 80px;
+    text-align: center;
+}
+/* main navbar */
+.main-nav{
+    background-color: #7ebebe;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    position: sticky;
+    top: 10px;
+
+}
+.main-nav a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+    font-size: 22px;
+    display: inline;
+}
+.main-nav a:hover{
+    background-color: rgb(41, 117, 117);
+    color: white;
+    border-radius: 25px;
+}
+
+/* Hiloday section */
+.holiday-section{
+    text-align: center;
+    margin:100px 40px;
+}
+.back-img{
+    
+    background: url(../images/sunset2.jpg.jpg);
+    
+    background-size: cover;
+}
+.holiday-heading-1{
+    font-size: 90px;
+    color: white;
+}
+
+.holiday-heading{
+    font-size: 90px;
+    color: rgb(99, 98, 98);
+}
+.holiday-text{
+    font-size: 30px;
+    color: rgb(162, 159, 159);
+    margin-bottom: 20px;
+}
+
+/* placce to visit */
+.place-to-visit-section{
+    text-align: center;
+    padding: 50px;
+
+}
+.place-to-visit-section .place-view{
+    padding-top: 20px;
+}
+
+.place-to-visit-section img{
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    border-radius:30px;
+    border-image: 1px black;
+}
+/* gallery section */
+.gallery-section{
+    text-align: center;
+   
+}
+.gallery-section .gallery-div{
+    padding: 20px;
+    margin-top: 20px;
+}
+.gallery-section .gallery-wrapper {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;   
+    box-shadow: 0 0 10px gray;
+    display:inline-block;
+    
+}
+.gallery-section .gallery-wrapper img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.gallery-section .gallery-wrapper img:hover{
+    transform: scale(1.2 ,1.2);
+    cursor: pointer;
+}
+/* our pakages */
+.pakage-section{
+    text-align: center;
+    padding: 20px;
+}
+.pakage-section .pakage-wrapper{
+    margin: 20px;
+
+
+}
+.pakage-wrapper .pakage-card{
+    width: 300px;
+    box-shadow: 0 0 10px gray;
+   padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.pakage-card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.pakage-card .card-heading{
+    font-size: 30px;
+    color: grey;
+}
+.pakage-card .cad-text{
+    font-size: 20px;
+    color: rgb(200, 193, 193);
+}
+.pakage-card .btn{
+    margin: 20px;
+    border-style: none;
+}
+
+.back-img1{
+    height: 500px;
+    padding:30px;
+    box-shadow: 0 10 10 black;
+}
+.back-img1 .back-img2{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* footer section */
+.footer-section{
+    color:white;
+    background-color: teal;
+    height: 300px;
+
+}
+.footer-top{
+    background-color:slategray;
+    text-align: center;
+    padding: 20px;
+}
+.footer-top a{
+    color: white;
+}
